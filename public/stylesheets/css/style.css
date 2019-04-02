@@ -1,0 +1,13 @@
+.mytable{
+    font-size: 20px;
+}.myselect{
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+}
+.myselect2{
+    visibility: hidden;
+}
+option{
+    padding: 20px;
+}
