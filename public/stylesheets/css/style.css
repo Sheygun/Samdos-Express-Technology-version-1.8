@@ -10,4 +10,7 @@
 }
 option{
     padding: 20px;
+}.past-questions{
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
 }

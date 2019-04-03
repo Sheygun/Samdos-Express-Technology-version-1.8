@@ -37,22 +37,22 @@ clickme.onclick = function(){
                             let selectLevel = document.getElementById('selectObj3').value;
 
                             if(selectLevel == "100"){
-                                 window.location.replace('/pq');
+                                 window.location.replace('/csclevel1');
 
                             }else if(selectLevel == "200"){
-                                window.location.replace('/pq');
+                                window.location.replace('/csclevel2');
                             }
                             else if(selectLevel == "300"){
-                                window.location.replace('/pq');
+                                window.location.replace('/csclevel3');
                             }
                             else if(selectLevel == "400"){
-                                window.location.replace('/pq');
+                                window.location.replace('/csclevel4');
                             }
                             else if(selectLevel == "500"){
-                                window.location.replace('/pq');
+                                window.location.replace('/csclevel5');
                             }
                             else if(selectLevel == "others"){
-                                window.location.replace('/pq');
+                                window.location.replace('/others');
                             }
                             else{
                                  document.getElementById('checkName').innerHTML = "Select Level";
@@ -65,22 +65,22 @@ clickme.onclick = function(){
                             let selectLevel = document.getElementById('selectObj3').value;
 
                             if(selectLevel == "100"){
-                                 window.location.replace('/pq');
+                                 window.location.replace('/matlevel1');
 
                             }else if(selectLevel == "200"){
-                                window.location.replace('/pq');
+                                window.location.replace('/matlevel2');
                             }
                             else if(selectLevel == "300"){
-                                window.location.replace('/pq');
+                                window.location.replace('/matlevel3');
                             }
                             else if(selectLevel == "400"){
-                                window.location.replace('/pq');
+                                window.location.replace('/matlevel4');
                             }
                             else if(selectLevel == "500"){
-                                window.location.replace('/pq');
+                                window.location.replace('/matlevel5');
                             }
                             else if(selectLevel == "others"){
-                                window.location.replace('/pq');
+                                window.location.replace('/');
                             }
                             else{
                                  document.getElementById('checkName').innerHTML = "Select Level";
@@ -94,19 +94,19 @@ clickme.onclick = function(){
                             let selectLevel = document.getElementById('selectObj3').value;
 
                             if(selectLevel == "100"){
-                                 window.location.replace('/pq');
+                                 window.location.replace('/bchlevel1');
 
                             }else if(selectLevel == "200"){
-                                window.location.replace('/pq');
+                                window.location.replace('/bchlevel2');
                             }
                             else if(selectLevel == "300"){
-                                window.location.replace('/pq');
+                                window.location.replace('/bchlevel3');
                             }
                             else if(selectLevel == "400"){
-                                window.location.replace('/pq');
+                                window.location.replace('/bchlevel4');
                             }
                             else if(selectLevel == "500"){
-                                window.location.replace('/pq');
+                                window.location.replace('/bchlevel5');
                             }
                             else if(selectLevel == "others"){
                                 window.location.replace('/pq');
@@ -123,22 +123,22 @@ clickme.onclick = function(){
                             let selectLevel = document.getElementById('selectObj3').value;
 
                             if(selectLevel == "100"){
-                                 window.location.replace('/pq');
+                                 window.location.replace('/phylevel1');
 
                             }else if(selectLevel == "200"){
-                                window.location.replace('/pq');
+                                window.location.replace('/phylevel2');
                             }
                             else if(selectLevel == "300"){
-                                window.location.replace('/pq');
+                                window.location.replace('/phylevel3');
                             }
                             else if(selectLevel == "400"){
-                                window.location.replace('/pq');
+                                window.location.replace('/phylevel4');
                             }
                             else if(selectLevel == "500"){
-                                window.location.replace('/pq');
+                                window.location.replace('/phylevel5');
                             }
                             else if(selectLevel == "others"){
-                                window.location.replace('/pq');
+                                window.location.replace('/');
                             }
                             else{
                                  document.getElementById('checkName').innerHTML = "Select Level";
@@ -152,22 +152,22 @@ clickme.onclick = function(){
                             let selectLevel = document.getElementById('selectObj3').value;
 
                             if(selectLevel == "100"){
-                                 window.location.replace('/pq');
+                                 window.location.replace('/zoolevel1');
 
                             }else if(selectLevel == "200"){
-                                window.location.replace('/pq');
+                                window.location.replace('/zoolevel2');
                             }
                             else if(selectLevel == "300"){
-                                window.location.replace('/pq');
+                                window.location.replace('/zoolevel3');
                             }
                             else if(selectLevel == "400"){
-                                window.location.replace('/pq');
+                                window.location.replace('/zoolevel4');
                             }
                             else if(selectLevel == "500"){
-                                window.location.replace('/pq');
+                                window.location.replace('/zoolevel5');
                             }
                             else if(selectLevel == "others"){
-                                window.location.replace('/pq');
+                                window.location.replace('/');
                             }
                             else{
                                  document.getElementById('checkName').innerHTML = "Select Level";
@@ -181,22 +181,22 @@ clickme.onclick = function(){
                         let selectLevel = document.getElementById('selectObj3').value;
 
                         if(selectLevel == "100"){
-                             window.location.replace('/pq');
+                             window.location.replace('/botlevel1');
 
                         }else if(selectLevel == "200"){
-                            window.location.replace('/pq');
+                            window.location.replace('/botlevel2');
                         }
                         else if(selectLevel == "300"){
-                            window.location.replace('/pq');
+                            window.location.replace('/botlevel3');
                         }
                         else if(selectLevel == "400"){
-                            window.location.replace('/pq');
+                            window.location.replace('/botlevel4');
                         }
                         else if(selectLevel == "500"){
-                            window.location.replace('/pq');
+                            window.location.replace('/botlevel5');
                         }
                         else if(selectLevel == "others"){
-                            window.location.replace('/pq');
+                            window.location.replace('/');
                         }
                         else{
                              document.getElementById('checkName').innerHTML = "Select Level";
@@ -210,22 +210,22 @@ clickme.onclick = function(){
                         let selectLevel = document.getElementById('selectObj3').value;
 
                         if(selectLevel == "100"){
-                             window.location.replace('/pq');
+                             window.location.replace('/fislevel1');
 
                         }else if(selectLevel == "200"){
-                            window.location.replace('/pq');
+                            window.location.replace('/fislevel2');
                         }
                         else if(selectLevel == "300"){
-                            window.location.replace('/pq');
+                            window.location.replace('/fislevel3');
                         }
                         else if(selectLevel == "400"){
-                            window.location.replace('/pq');
+                            window.location.replace('/fislevel4');
                         }
                         else if(selectLevel == "500"){
-                            window.location.replace('/pq');
+                            window.location.replace('/fislevel5');
                         }
                         else if(selectLevel == "others"){
-                            window.location.replace('/pq');
+                            window.location.replace('/');
                         }
                         else{
                              document.getElementById('checkName').innerHTML = "Select Level";
@@ -238,22 +238,22 @@ clickme.onclick = function(){
                     let selectLevel = document.getElementById('selectObj3').value;
 
                     if(selectLevel == "100"){
-                         window.location.replace('/pq');
+                         window.location.replace('/mcblevel1');
 
                     }else if(selectLevel == "200"){
-                        window.location.replace('/pq');
+                        window.location.replace('/mcblevel2');
                     }
                     else if(selectLevel == "300"){
-                        window.location.replace('/pq');
+                        window.location.replace('/mcblevel3');
                     }
                     else if(selectLevel == "400"){
-                        window.location.replace('/pq');
+                        window.location.replace('/mcblevel4');
                     }
                     else if(selectLevel == "500"){
-                        window.location.replace('/pq');
+                        window.location.replace('/mcblevel5');
                     }
                     else if(selectLevel == "others"){
-                        window.location.replace('/pq');
+                        window.location.replace('/');
                     }
                     else{
                          document.getElementById('checkName').innerHTML = "Select Level";
@@ -267,22 +267,22 @@ clickme.onclick = function(){
                         let selectLevel = document.getElementById('selectObj3').value;
 
                         if(selectLevel == "100"){
-                             window.location.replace('/pq');
+                             window.location.replace('/chmlevel1');
 
                         }else if(selectLevel == "200"){
-                            window.location.replace('/pq');
+                            window.location.replace('/chmlevel2');
                         }
                         else if(selectLevel == "300"){
-                            window.location.replace('/pq');
+                            window.location.replace('/chmlevel3');
                         }
                         else if(selectLevel == "400"){
-                            window.location.replace('/pq');
+                            window.location.replace('/chmlevel4');
                         }
                         else if(selectLevel == "500"){
-                            window.location.replace('/pq');
+                            window.location.replace('/chmlevel5');
                         }
                         else if(selectLevel == "others"){
-                            window.location.replace('/pq');
+                            window.location.replace('/');
                         }
                         else{
                              document.getElementById('checkName').innerHTML = "Select Level";
