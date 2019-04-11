@@ -195,15 +195,16 @@ aria-hidden="true">
       </button>
     </div>
        <center> <br>
+
         <form action="">
             <select class="browser-default custom-select myselect" id="solutionselectObj">
-                <option selected class="myoption" value="faculty">-- Select Faculty --</option>
+                <option selected class="myoption" value="faculty2">-- Select Faculty --</option>
                 <option class="myoption" value="science">Science</option>
                 <option class="myoption" value="art">Art</option>
               </select> <br> <br>
 
-              <select class="browser-default custom-select myselect myselect2" id="solutionselectObj2" >
-                    <option selected class="myoption" value="dept">-- Select Department --</option>
+              <select class="browser-default custom-select myselect" disabled id="solutionselectObj2" >
+                    <option selected class="myoption" value="dept2">-- Select Department --</option>
                     <option class="myoption" value="" id="solutionone"></option>
                     <option class="myoption" value="" id="solutiontwo"></option>
                     <option class="myoption" value="" id="solutionthree"></option>
@@ -215,17 +216,17 @@ aria-hidden="true">
                     <option class="myoption" value="" id="solutionnine"></option>
                   </select> <br> <br>
 
-                  <select class="browser-default custom-select myselect myselect2" id="solutionselectObj3">
-                        <option class="myoption">-- Select Level --</option>
+                  <select class="browser-default custom-select myselect" disabled id="solutionselectObj3">
+                        <option class="myoption" value="level2">-- Select Level --</option>
                         <option class="myoption" value="100">100</option>
                         <option class="myoption" value="200">200</option>
                         <option class="myoption" value="300">300</option>
                         <option class="myoption" value="400">400</option>
                         <option class="myoption" value="500">500</option>
-                        <option class="myoption" value="others">Others</option>
+                        <!-- <option class="myoption" value="others">Others</option> -->
                       </select> <br> <br>
 
-                      <select class="browser-default custom-select myselect myselect2" id="solutionselectObj4">
+                      <select class="browser-default custom-select myselect" disabled id="solutionselectObj4">
                         <option class="myoption" value="solutioncourse">-- Select Course --</option>
                         <option class="myoption" value="" id="solutioncourse1"></option>
                         <option class="myoption" value="" id="solutioncourse2"></option>
@@ -241,10 +242,15 @@ aria-hidden="true">
                         <option class="myoption" value="" id="solutioncourse12"></option>
                       </select> <br> <br>
         </form>
+
+
        </center>
     <div class="modal-footer d-flex justify-content-center">
-      <button class="btn btn-block blue " id="getme"><span class="h5" id="solutioncheckName">Check Faculty</span></button>
+      <button class="btn btn-block blue " disabled id="getme"><span class="h4 white-text" style="font-weight: bold;" id="solutioncheckName">Check In</span></button>
     </div>
   </div>
 </div>
 </div>
+
+
+

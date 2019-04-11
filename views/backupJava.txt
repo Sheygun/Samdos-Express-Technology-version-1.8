@@ -83,3 +83,42 @@ clickme.onclick = function(){
         document.getElementById('checkName').innerHTML = "Check Faculty";
     }
 }
+
+
+ <select class="browser-default custom-select" id="tope">
+                    <option selected>Open this select menu</option>
+                    <option value="ade" id="first">One</option>
+                    <option value="ade2" id="second">Two</option>
+                    <option value="ade3" id="third">Three</option>
+                  </select>
+
+                  <select class="mdb-select md-form" disabled id="sheygun">
+                    <option value="0" selected>Choose your option</option>
+                    <option value="1" id="one"></option>
+                    <option value="2" id="two"></option>
+                    <option value="3" id="three"></option>
+                  </select>
+
+let tope = document.getElementById('tope');
+let sheygun = document.getElementById('sheygun');
+tope.onchange = function(){
+    if(tope.value == "ade"){
+        sheygun.disabled = false;
+        sheygun.options[1].innerHTML = 'tope';
+        sheygun.options[2].innerHTML = 'tope2';
+        sheygun.options[3].innerHTML = 'tope3';
+    } else  if(tope.value == "ade2"){
+        sheygun.disabled = false;
+        sheygun.options[1].innerHTML = 'tope4';
+        sheygun.options[2].innerHTML = 'tope5';
+        sheygun.options[3].innerHTML = 'tope6';
+    } else  if(tope.value == "ade3"){
+        sheygun.disabled = false;
+        sheygun.options[1].innerHTML = 'tope7';
+        sheygun.options[2].innerHTML = 'tope8';
+        sheygun.options[3].innerHTML = 'tope9';
+    }
+    else{
+        sheygun.disabled = true;
+    }
+}
